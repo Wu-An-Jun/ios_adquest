@@ -1,8 +1,8 @@
 name: ios_adquest
 description: "A new Flutter plugin project."
 version: 0.0.1
-homepage: https://github.com/Wu-An-Jun/iOS_AdQuestSDK
-repository: https://github.com/Wu-An-Jun/iOS_AdQuestSDK.git
+homepage: https://github.com/Wu-An-Jun/ios_adquest
+repository: https://github.com/Wu-An-Jun/ios_adquest.git
 
 
 environment:
