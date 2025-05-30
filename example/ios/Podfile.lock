@@ -1,0 +1,123 @@
+PODS:
+  - Ads-CN-Beta/BUAdSDK (6.8.0.1)
+  - Ads-CN-Beta/CSJMediation (6.8.0.1):
+    - Ads-CN-Beta/BUAdSDK
+  - BaiduMobAdSDK (5.373)
+  - Flutter (1.0.0)
+  - GDTMobSDK (4.15.30)
+  - integration_test (0.0.1):
+    - Flutter
+  - ios_adquest (0.0.1):
+    - Ads-CN-Beta/BUAdSDK (= 6.8.0.1)
+    - Ads-CN-Beta/CSJMediation (= 6.8.0.1)
+    - BaiduMobAdSDK (= 5.373)
+    - Flutter
+    - GDTMobSDK (= 4.15.30)
+    - iOS_AdQuestSDK
+    - iOS_AdQuestSDK/BDAdapter
+    - iOS_AdQuestSDK/CSJAdapter
+    - iOS_AdQuestSDK/GDTAdapter
+    - iOS_AdQuestSDK/KSAdapter
+    - iOS_AdQuestSDK/MercuryAdapter
+    - iOS_AdQuestSDK/SigmobAdapter
+    - iOS_AdQuestSDK/TanxAdapter
+    - KSAdSDK (= 3.3.74)
+    - MercurySDK (= 4.4.7)
+    - SDWebImage
+    - SigmobAd-iOS (= 4.17.0)
+    - TanxSDK (= 3.7.2)
+  - iOS_AdQuestSDK (0.0.1):
+    - iOS_AdQuestSDK/Core (= 0.0.1)
+  - iOS_AdQuestSDK/AdSpot (0.0.1):
+    - iOS_AdQuestSDK/Core
+  - iOS_AdQuestSDK/BDAdapter (0.0.1):
+    - BaiduMobAdSDK (= 5.373)
+    - iOS_AdQuestSDK/AdSpot
+  - iOS_AdQuestSDK/Core (0.0.1)
+  - iOS_AdQuestSDK/CSJAdapter (0.0.1):
+    - Ads-CN-Beta/BUAdSDK (= 6.8.0.1)
+    - iOS_AdQuestSDK/AdSpot
+  - iOS_AdQuestSDK/GDTAdapter (0.0.1):
+    - GDTMobSDK (= 4.15.30)
+    - iOS_AdQuestSDK/AdSpot
+  - iOS_AdQuestSDK/KSAdapter (0.0.1):
+    - iOS_AdQuestSDK/AdSpot
+    - KSAdSDK (= 3.3.74)
+  - iOS_AdQuestSDK/MercuryAdapter (0.0.1):
+    - iOS_AdQuestSDK/AdSpot
+    - MercurySDK (= 4.4.7)
+  - iOS_AdQuestSDK/SigmobAdapter (0.0.1):
+    - iOS_AdQuestSDK/AdSpot
+    - SigmobAd-iOS (= 4.17.0)
+  - iOS_AdQuestSDK/TanxAdapter (0.0.1):
+    - iOS_AdQuestSDK/AdSpot
+    - TanxSDK (= 3.7.2)
+  - KSAdSDK (3.3.74)
+  - MercurySDK (4.4.7)
+  - SDWebImage (5.21.0):
+    - SDWebImage/Core (= 5.21.0)
+  - SDWebImage/Core (5.21.0)
+  - SigmobAd-iOS (4.17.0):
+    - SigmobAd-iOS/WindSDK (= 4.17.0)
+  - SigmobAd-iOS/WindSDK (4.17.0)
+  - TanxSDK (3.7.2)
+
+DEPENDENCIES:
+  - Ads-CN-Beta/BUAdSDK (= 6.8.0.1)
+  - Ads-CN-Beta/CSJMediation (= 6.8.0.1)
+  - BaiduMobAdSDK (= 5.373)
+  - Flutter (from `Flutter`)
+  - GDTMobSDK (= 4.15.30)
+  - integration_test (from `.symlinks/plugins/integration_test/ios`)
+  - ios_adquest (from `.symlinks/plugins/ios_adquest/ios`)
+  - iOS_AdQuestSDK
+  - iOS_AdQuestSDK/BDAdapter
+  - iOS_AdQuestSDK/CSJAdapter
+  - iOS_AdQuestSDK/GDTAdapter
+  - iOS_AdQuestSDK/KSAdapter
+  - iOS_AdQuestSDK/MercuryAdapter
+  - iOS_AdQuestSDK/SigmobAdapter
+  - iOS_AdQuestSDK/TanxAdapter
+  - KSAdSDK (= 3.3.74)
+  - MercurySDK (= 4.4.7)
+  - SDWebImage
+  - SigmobAd-iOS (= 4.17.0)
+  - TanxSDK (= 3.7.2)
+
+SPEC REPOS:
+  trunk:
+    - Ads-CN-Beta
+    - BaiduMobAdSDK
+    - GDTMobSDK
+    - iOS_AdQuestSDK
+    - KSAdSDK
+    - MercurySDK
+    - SDWebImage
+    - SigmobAd-iOS
+    - TanxSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  integration_test:
+    :path: ".symlinks/plugins/integration_test/ios"
+  ios_adquest:
+    :path: ".symlinks/plugins/ios_adquest/ios"
+
+SPEC CHECKSUMS:
+  Ads-CN-Beta: 888fb212b90948be531e53d884320f4c259dc372
+  BaiduMobAdSDK: 834a7246eab7a8af4e7f0fc8e94a3482a2f57859
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  GDTMobSDK: ee16d8b3c06825c09c0be89a443c1a909fdb86b3
+  integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
+  ios_adquest: 9f53d62a0c00ca95ec0c1c3d392e2fb32719a7d1
+  iOS_AdQuestSDK: c175f728255d25ff89428294dd2804c842b65fca
+  KSAdSDK: bf5dcb9cc6a3dc83e5d4fcc44d96e94c16630b1c
+  MercurySDK: aefb50a4397520a85f400f7d4ab5ff12e74400c4
+  SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
+  SigmobAd-iOS: b1cdeaf905a27cf2f04ae45593ffb68c452bde49
+  TanxSDK: 599bbf1f47f7a7bfe9cce316a1a80c0e853557cb
+
+PODFILE CHECKSUM: 8c45d0143af20277ae3fbd23d08b8e12311ce901
+
+COCOAPODS: 1.16.2
