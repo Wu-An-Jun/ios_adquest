@@ -27,7 +27,7 @@ A new Flutter plugin project.
   # see https://developer.apple.com/documentation/bundleresources/privacy_manifest_files
   # s.resource_bundles = {'ios_adquest_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 # 必须集成主SDK
-s.dependency 'iOS_AdQuestSDK'
+s.dependency 'iOS_AdQuestSDK', '0.0.2'
 # 集成倍业Adapter
 s.dependency 'iOS_AdQuestSDK/MercuryAdapter'
 s.dependency 'MercurySDK', '4.4.7'
