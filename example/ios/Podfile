@@ -6,7 +6,7 @@ ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
 
 # 必须集成主SDK
-  pod 'iOS_AdQuestSDK'
+  pod 'iOS_AdQuestSDK', '0.0.2'
 # 集成倍业Adapter
   pod 'iOS_AdQuestSDK/MercuryAdapter'
   pod 'MercurySDK', '4.4.7'
