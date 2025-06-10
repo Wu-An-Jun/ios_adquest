@@ -118,5 +118,5 @@ String? result = await adquest.showSplashAd('广告位ID');
 
 ---
 
-> 更多用法请参考 example 目录下的演示页面和源码。
+> 更多用法请参考 example 目录下的演示页面和源码
 
