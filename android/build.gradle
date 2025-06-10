@@ -47,7 +47,7 @@ android {
     }
 
     defaultConfig {
-        minSdk = 21
+        minSdk = 24
     }
 
     dependencies {
@@ -93,4 +93,8 @@ android {
             }
         }
     }
+}
+
+ext {
+    minSdkVersion = 24
 }
