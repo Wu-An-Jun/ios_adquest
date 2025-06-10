@@ -25,8 +25,6 @@ class PlatformBannerWidget extends StatefulWidget {
 class _PlatformBannerWidgetState extends State<PlatformBannerWidget> {
   @override
   Widget build(BuildContext context) {
-    print('PlatformBannerWidget placementID: ${widget.placementID}');
-    print('PlatformBannerWidget sceneID: ${widget.sceneID}');
     // 判断当前运行平台是否为Android
     if (defaultTargetPlatform == TargetPlatform.android) {
       // 如果是Android平台，使用AndroidView嵌入原生广告视图

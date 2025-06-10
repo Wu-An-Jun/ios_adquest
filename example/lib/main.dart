@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/services.dart';
 import 'package:ios_adquest/ios_adquest.dart';
@@ -9,6 +10,7 @@ import 'ADTestPages/NativeAdPage.dart';
 import 'ADTestPages/RewardAdPage.dart';
 import 'ADTestPages/FullScreenVideoAdPage.dart';
 import 'ADTestPages/SplashAdPage.dart';
+import 'ADTestPages/DrawAdPage.dart' as ADTestPages;
 
 void main() {
   runApp(const MyApp());
@@ -136,6 +138,38 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     const SizedBox(height: 12),
+                    Row(
+                      children: [
+                        Expanded(
+                          child: ElevatedButton(
+                            onPressed: () {
+                              setState(() {
+                                _urlController.text = 'http://cruiser.bayescom.cn/eleven';
+                              });
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.blue.shade100,
+                            ),
+                            child: const Text('cruiser'),
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Expanded(
+                          child: ElevatedButton(
+                            onPressed: () {
+                              setState(() {
+                                _urlController.text = 'http://test-stella.explorex-ai.com/stella';
+                              });
+                            },
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: Colors.green.shade100,
+                            ),
+                            child: const Text('stella'),
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
                     SizedBox(
                       width: double.infinity,
                       child: ElevatedButton(
@@ -215,6 +249,11 @@ class _HomePageState extends State<HomePage> {
               title: '开屏广告',
               page: const SplashAdPage(),
             ),
+            if (!Platform.isIOS)
+              _AdNavButton(
+                title: 'DRAW 视频信息流广告',
+                page: const ADTestPages.DrawAdPage(),
+              ),
           ],
         ),
       ),

@@ -2,12 +2,14 @@
 #import <iOS_AdQuestSDK/AdvanceRewardVideo.h>
 #import <iOS_AdQuestSDK/AdvSdkConfig.h>
 
+
 #import "RewardVideoAdLauncher.h"
 #import "FullScreenVideoLauncher.h"
 #import "SplashAdLauncher.h"
 #import "InterstitialAdLauncher.h"
 #import "BannerPlatformViewFactory.h"
 #import "FeedPlatformViewFactory.h"
+
 @implementation IosAdquestPlugin
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
@@ -24,7 +26,7 @@
     // 注册Feed PlatformView
     FeedPlatformViewFactory *feedFactory = [[FeedPlatformViewFactory alloc] initWithMessenger:[registrar messenger]];
     [registrar registerViewFactory:feedFactory withId:@"my_feed_ad_view"];
-    
+
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {

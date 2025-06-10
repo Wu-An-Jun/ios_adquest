@@ -25,11 +25,17 @@ class _BannerPageState extends State<BannerAdPage> {
       appBar: AppBar(
         title: Text("横幅广告展示"),
       ),
-      body: Center(
+      body: SingleChildScrollView(
+        padding: EdgeInsets.only(
+          left: 16,
+          right: 16,
+          top: 32,
+          bottom: MediaQuery.of(context).viewInsets.bottom + 32,
+        ),
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            // 输入框
+            // 输入框和第一个广告
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: Column(
@@ -45,7 +51,7 @@ class _BannerPageState extends State<BannerAdPage> {
                       ),
                     ),
                   ),
-                  SizedBox(width: 10),
+                  SizedBox(height: 10),
                   ElevatedButton(
                     onPressed: () {
                       setState(() {
@@ -71,7 +77,7 @@ class _BannerPageState extends State<BannerAdPage> {
                       ),
                     ),
                   ),
-                  SizedBox(width: 10),
+                  SizedBox(height: 10),
                   ElevatedButton(
                     onPressed: () {
                       setState(() {

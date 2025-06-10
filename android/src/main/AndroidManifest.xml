@@ -1,3 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.hczhhm.ios_adquest">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hczhhm.ios_adquest">
+
+    <application
+        android:label="ios_adquest_example"
+        tools:replace="android:label">
+        <!-- 你的 activity、service 等内容 -->
+    </application>
+
 </manifest>

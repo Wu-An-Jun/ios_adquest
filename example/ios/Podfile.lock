@@ -61,6 +61,9 @@ PODS:
     - SigmobAd-iOS/WindSDK (= 4.17.0)
   - SigmobAd-iOS/WindSDK (4.17.0)
   - TanxSDK (3.7.2)
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
 
 DEPENDENCIES:
   - Ads-CN-Beta/BUAdSDK (= 6.8.0.1)
@@ -83,6 +86,7 @@ DEPENDENCIES:
   - SDWebImage
   - SigmobAd-iOS (= 4.17.0)
   - TanxSDK (= 3.7.2)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/darwin`)
 
 SPEC REPOS:
   trunk:
@@ -103,6 +107,8 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/integration_test/ios"
   ios_adquest:
     :path: ".symlinks/plugins/ios_adquest/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/darwin"
 
 SPEC CHECKSUMS:
   Ads-CN-Beta: 888fb212b90948be531e53d884320f4c259dc372
@@ -117,6 +123,7 @@ SPEC CHECKSUMS:
   SDWebImage: f84b0feeb08d2d11e6a9b843cb06d75ebf5b8868
   SigmobAd-iOS: b1cdeaf905a27cf2f04ae45593ffb68c452bde49
   TanxSDK: 599bbf1f47f7a7bfe9cce316a1a80c0e853557cb
+  video_player_avfoundation: 2cef49524dd1f16c5300b9cd6efd9611ce03639b
 
 PODFILE CHECKSUM: 3e4384016a1bae9d1a7279ddf3677ae9498ec86c
 
