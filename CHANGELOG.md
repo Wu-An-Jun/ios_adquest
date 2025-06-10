@@ -13,3 +13,5 @@
 ## 0.0.6
 - 优化插件 AndroidManifest.xml，移除 label/allowBackup 声明，减少 Manifest 冲突
 - 完善文档，详细说明 Android 集成注意事项，减少用户手动配置
+## 0.0.7
+- 文档新增"广告功能API与用法示例"章节，详细列出各类广告的调用方法和代码示例
