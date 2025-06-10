@@ -2,9 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.hczhhm.ios_adquest">
 
-    <application
-        android:label="ios_adquest"
-        tools:replace="android:label">
+    <application>
         <!-- 你的 activity、service 等内容 -->
     </application>
 
